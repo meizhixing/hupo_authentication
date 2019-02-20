@@ -1,4 +1,4 @@
-### 第一阶段：前后端分离，微服务化
+## 第一阶段：前后端分离，微服务化
 原来的博客系统，分成三部分：注册登录中心前后端，Blog。
 ```
 mkdir hupo_authentication
@@ -19,5 +19,11 @@ git
 npm install 
 bower install
 ```
-另外，还需要配置.gitignore，忽略node_modules和bower_components。
+另外，还需要配置.gitignore，忽略node_modules和bower_components。   
+
+### 添加测试工具
+测试是很重要的，找bug，加深对代码的理解。  
+>console.log   
+
+>Chrome DevTools，感觉后段代码没法调，远程调试有太不安全了。
 
