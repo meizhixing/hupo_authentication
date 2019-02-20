@@ -1,8 +1,8 @@
 ### 第一阶段：前后端分离，微服务化
 原来的博客系统，分成三部分：注册登录中心前后端，Blog。
 ```
-mkdir hupo_pc
-cd hupo_pc
+mkdir hupo_authentication
+cd hupo_authentication
 npm init -y
 git init
 git status
